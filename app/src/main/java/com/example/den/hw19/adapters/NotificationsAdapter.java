@@ -53,6 +53,7 @@ public class NotificationsAdapter extends BaseAdapter{
             LayoutInflater inflater = (LayoutInflater) mContext
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
+
             convertView = inflater.inflate(R.layout.list_item, parent, false);
             viewHolder = new ViewHolder();
             viewHolder.txtItem = (TextView) convertView.findViewById(R.id.txtItem_AM);
